@@ -1,0 +1,122 @@
+/* Import Font  */
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins:wght@500&display=swap');
+/* Body part css  */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    color: #3A3A3A;
+    width: 100%;
+}
+/* Navbar css  */
+body .nav-title{
+    font-weight: 700;
+    font-size: 24px;
+    text-align: center;
+    margin: 50px 0px;
+}
+/* Main part css  */
+.container{
+    width: 100%;
+}
+/* Top part css  */
+.top{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+}
+/* Heading Title  */
+.top-title{
+    font-size: 52px;
+}
+/* Top Container Left Side  */
+.top-left{
+    margin-left: 80px;
+    padding-left: 30px;
+}
+/* Top Paragraph  */
+.top-para{
+    /* font-size: 16px; */
+    margin: 5px 0px;
+}
+/* Button css  */
+.btn{
+    /* font-size: 16px; */
+    font-weight: 700;
+    color: #FFFFFF;
+    background-color: #E02C6D;
+    border: 1px solid #E02C6D;
+    border-radius: 24px;
+    height: 44px;
+    width: 196px;
+    margin-top: 16px;
+}
+/* Font Awesome Arrow css  */
+.fa-arrow-right{
+    padding-left: 10px;
+}
+
+/* Middle Part css  */
+/* Middle Headings  */
+.middle-headings{
+    font-weight: 600;
+    font-size: 28px;
+    text-align: center;
+    margin: 30px 0;
+}
+
+/* Middle Main Part  */
+.middle-main{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0px auto;
+    width: 100%;
+    
+}
+/* Middle Title part  */
+.middle-title{
+    font-size: 28px;
+}
+/* Middle Main Part  */
+.middle{
+    width: 300px;
+    height: 460px;
+    display: grid;
+    border-radius: 5px;
+    box-shadow: #3A3A3A 5px 5px 10px;
+    padding: 30px;
+    margin: 30px;
+}
+/* Pricing Part  */
+.price{
+    font-size: 24px;
+    font-weight: 400;
+}
+/* Font Awesome Star  */
+.fa-star,.fa-star-half-alt{
+    color: #FB8200;
+    /* font-size: 16px; */
+
+}
+/* Rating Number  */
+.rate{
+    font-weight: 700;
+}
+/* Middle down Paragraph Part  */
+.shifting, .available, .protection{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+}
+/* See More Arrow Part  */
+.see-more{
+    text-decoration: none;
+    color: #E02C6D;
+    align-items: center;
+    font-weight: 700;
+}
+.see{
+    text-align: end;
+}
