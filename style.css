@@ -119,4 +119,33 @@ body .nav-title{
 }
 .see{
     text-align: end;
+    margin: 50px 0px;
+}
+
+/* Footer Part  */
+footer{
+    background-color: #0A0826;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 50px;
+
+}
+/* Footer Title  */
+.footer-title{
+    margin-top: 50px;
+}
+.footer-para{
+    font-size: 14px;
+    margin: 10px 0px;
+}
+/* Social Icon Style  */
+.social-icon{
+    background-color: #fcfcfc2a;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    font-size: 26px;
+    padding: 10px;
+    margin: 5px;
+    
 }
