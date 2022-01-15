@@ -68,6 +68,10 @@ body .nav-title{
 .fa-arrow-right{
     padding-left: 10px;
 }
+.top-img:hover{
+    transform: rotate(45deg);
+    
+}
 
 /* Middle Part css  */
 /* Companey Logo css  */
@@ -240,6 +244,7 @@ footer{
     .top-img{
         width: 90%;
     }
+
     .top-left{
         margin-left: 50px;
         padding-left: 10px;
