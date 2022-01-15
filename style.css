@@ -9,6 +9,7 @@ body{
     font-family: 'Poppins', sans-serif;
     color: #3A3A3A;
     width: 100%;
+    overflow-x: hidden;
 }
 /* Navbar css  */
 body .nav-title{
@@ -69,6 +70,21 @@ body .nav-title{
 }
 
 /* Middle Part css  */
+/* Companey Logo css  */
+.c-logo{
+    text-align: center;
+    width: 100%;
+    margin: 20px;
+}
+.logo{
+    padding: 15px;
+}
+.border{
+    border: 1px solid #4d4b4b;
+    width: 70%;
+    align-items: center;
+    margin-left: 200px;
+}
 /* Middle Headings  */
 .middle-headings{
     font-weight: 600;
@@ -230,6 +246,18 @@ footer{
         align-items: center;
         justify-content: center;
     }
+    .c-logo{
+        text-align: center;
+        width: 100%;
+        margin-left: 10px ;
+        padding-left: 10px;
+    }
+    .logo{
+        padding: 5px;
+    }
+    .border{
+        display: none;
+    }
     .middle-main{
         grid-template-columns: repeat(2,1fr);
         width: 100%;
@@ -290,6 +318,17 @@ footer{
         width: 90%;
         padding-top: 30px;
         vertical-align: middle;
+    }
+    .c-logo{
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+    }
+    .logo{
+        padding: 5px;
+    }
+    .border{
+        display: none;
     }
     .contact{
         display: inline;
